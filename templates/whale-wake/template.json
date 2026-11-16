@@ -4,9 +4,9 @@
   "name": "鲸醒·上电",
   "author": "大肥鱼",
   "license": "CC-BY-4.0",
-  "version": "6.3.0",
+  "version": "7.3.1",
   "minSuiteVersion": "2.2.0",
-  "description": "鲸醒·上电：四档解像对焦出水，收尾为掉电式衰减——主体指数级暗到黑，星芒最后一盏灯交给交棒淡出。",
+  "description": "鲸醒·上电 v7.3：四档清晰度对焦出水 -> 双星芒亮起 -> 底部渐隐压暗带托起重体标题「我已启动」（预渲染 Noto Sans SC Black + 蓝红色差 + 辉光，无硬边底板）-> 掉电收尾只留星芒。18.2 秒。",
   "tags": [
     "dark",
     "blue",
@@ -827,35 +827,215 @@
       ]
     },
     {
-      "id": "plate",
+      "id": "shade",
       "type": "panel",
       "pos": [
         640,
-        596
+        604
       ],
-      "panelW": 600,
-      "panelH": 132,
-      "radius": 4,
-      "fill": "rgba(3,6,12,0.42)",
-      "blur": 2,
+      "panelW": 1200,
+      "panelH": 250,
+      "radius": 0,
+      "borderColor": "rgba(0,0,0,0)",
+      "fill": "linear-gradient(to top, rgba(1,5,14,0.78) 0%, rgba(1,5,14,0.62) 34%, rgba(1,5,14,0.30) 66%, rgba(1,5,14,0) 100%)",
       "keyframes": [
         {
-          "t": 13600,
+          "t": 13300,
           "opacity": 0,
           "ease": "outCubic"
         },
         {
-          "t": 14400,
+          "t": 14200,
           "opacity": 1
         },
         {
-          "t": 17200,
+          "t": 17020,
           "opacity": 1,
-          "ease": "outCubic"
+          "ease": "inCubic"
         },
         {
-          "t": 17550,
+          "t": 17360,
           "opacity": 0
+        }
+      ]
+    },
+    {
+      "id": "t1",
+      "type": "image",
+      "src": "assets/title-0.webp",
+      "pos": [
+        449.4,
+        604.0
+      ],
+      "size": [
+        64.9,
+        64.5
+      ],
+      "keyframes": [
+        {
+          "t": 13920,
+          "opacity": 0,
+          "offsetX": 93.7,
+          "offsetY": 8.2,
+          "scale": 0.9,
+          "ease": "outQuint"
+        },
+        {
+          "t": 14680,
+          "opacity": 1,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.0
+        },
+        {
+          "t": 17060,
+          "opacity": 1,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.0,
+          "ease": "inCubic"
+        },
+        {
+          "t": 17360,
+          "opacity": 0,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.035
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "type": "image",
+      "src": "assets/title-1.webp",
+      "pos": [
+        579.0,
+        604.0
+      ],
+      "size": [
+        65.6,
+        64.5
+      ],
+      "keyframes": [
+        {
+          "t": 14020,
+          "opacity": 0,
+          "offsetX": 30.0,
+          "offsetY": 8.2,
+          "scale": 0.9,
+          "ease": "outQuint"
+        },
+        {
+          "t": 14780,
+          "opacity": 1,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.0
+        },
+        {
+          "t": 17060,
+          "opacity": 1,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.0,
+          "ease": "inCubic"
+        },
+        {
+          "t": 17360,
+          "opacity": 0,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.035
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "type": "image",
+      "src": "assets/title-2.webp",
+      "pos": [
+        706.1,
+        604.0
+      ],
+      "size": [
+        61.6,
+        64.5
+      ],
+      "keyframes": [
+        {
+          "t": 14120,
+          "opacity": 0,
+          "offsetX": -32.5,
+          "offsetY": 8.2,
+          "scale": 0.9,
+          "ease": "outQuint"
+        },
+        {
+          "t": 14880,
+          "opacity": 1,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.0
+        },
+        {
+          "t": 17060,
+          "opacity": 1,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.0,
+          "ease": "inCubic"
+        },
+        {
+          "t": 17360,
+          "opacity": 0,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.035
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "type": "image",
+      "src": "assets/title-3.webp",
+      "pos": [
+        831.7,
+        604.0
+      ],
+      "size": [
+        63.5,
+        64.5
+      ],
+      "keyframes": [
+        {
+          "t": 14220,
+          "opacity": 0,
+          "offsetX": -94.2,
+          "offsetY": 8.2,
+          "scale": 0.9,
+          "ease": "outQuint"
+        },
+        {
+          "t": 14980,
+          "opacity": 1,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.0
+        },
+        {
+          "t": 17060,
+          "opacity": 1,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.0,
+          "ease": "inCubic"
+        },
+        {
+          "t": 17360,
+          "opacity": 0,
+          "offsetX": 0.0,
+          "offsetY": 0.0,
+          "scale": 1.035
         }
       ]
     },
@@ -864,133 +1044,81 @@
       "type": "line",
       "pos": [
         640,
-        528
+        560
       ],
-      "width": 400,
+      "width": 300,
       "keyframes": [
         {
-          "t": 13900,
+          "t": 13560,
           "opacity": 0,
           "reveal": 0
         },
         {
-          "t": 14050,
-          "opacity": 0.85,
+          "t": 13680,
+          "opacity": 0.42,
           "reveal": 0,
           "ease": "inOutCubic"
         },
         {
-          "t": 15000,
-          "opacity": 0.85,
+          "t": 14420,
+          "opacity": 0.42,
           "reveal": 1,
           "ease": "outCubic"
         },
         {
-          "t": 17250,
-          "opacity": 0.85,
+          "t": 17040,
+          "opacity": 0.42,
           "reveal": 1,
-          "ease": "outCubic"
+          "ease": "inCubic"
         },
         {
-          "t": 17480,
+          "t": 17320,
           "opacity": 0,
           "reveal": 1
         }
       ]
     },
     {
-      "id": "title",
-      "type": "text",
-      "text": "我已启动",
+      "id": "sub",
+      "type": "image",
       "pos": [
         640,
-        582
+        654
       ],
-      "font": {
-        "size": 52,
-        "weight": 700,
-        "tracking": 0.2
-      },
-      "color": "#eef4ff",
       "keyframes": [
-        {
-          "t": 14100,
-          "opacity": 0,
-          "typed": 0,
-          "offsetY": 12,
-          "ease": "outCubic"
-        },
         {
           "t": 14400,
-          "opacity": 1,
-          "typed": 0,
-          "offsetY": 12,
+          "opacity": 0,
+          "offsetY": 7,
           "ease": "outCubic"
         },
         {
-          "t": 14550,
-          "opacity": 1,
-          "typed": 0.1,
-          "offsetY": 4
+          "t": 14860,
+          "opacity": 0.96,
+          "offsetY": 7,
+          "ease": "outCubic"
         },
         {
-          "t": 15300,
-          "opacity": 1,
-          "typed": 1,
+          "t": 15560,
+          "opacity": 0.96,
           "offsetY": 0
         },
         {
-          "t": 17400,
-          "opacity": 1,
-          "typed": 1,
+          "t": 17080,
+          "opacity": 0.96,
           "offsetY": 0,
-          "ease": "outCubic"
+          "ease": "inCubic"
         },
         {
-          "t": 17640,
+          "t": 17320,
           "opacity": 0,
-          "typed": 1,
           "offsetY": 0
         }
-      ]
-    },
-    {
-      "id": "sub",
-      "type": "text",
-      "text": "SYSTEM ONLINE · SURFACING FROM DEPTH",
-      "pos": [
-        640,
-        624
       ],
-      "font": {
-        "size": 12,
-        "weight": 400,
-        "tracking": 0.4
-      },
-      "color": "#5b8ace",
-      "keyframes": [
-        {
-          "t": 14800,
-          "opacity": 0,
-          "offsetY": 10,
-          "ease": "outCubic"
-        },
-        {
-          "t": 15500,
-          "opacity": 1,
-          "offsetY": 0
-        },
-        {
-          "t": 17350,
-          "opacity": 1,
-          "offsetY": 0,
-          "ease": "outCubic"
-        },
-        {
-          "t": 17530,
-          "opacity": 0,
-          "offsetY": 0
-        }
+      "src": "assets/subtitle.webp",
+      "size": [
+        520.0,
+        16.9
       ]
     }
   ],
@@ -1086,6 +1214,22 @@
       "opacity": 0.16,
       "from": 17500,
       "to": 18150
+    },
+    {
+      "type": "bloom",
+      "opacity": 0.2,
+      "from": 13500,
+      "to": 17320,
+      "x": 0,
+      "y": -6,
+      "scale": 0.58,
+      "speed": 0.7
+    },
+    {
+      "type": "glitch",
+      "opacity": 0.22,
+      "from": 14360,
+      "to": 14720
     }
   ]
 }
