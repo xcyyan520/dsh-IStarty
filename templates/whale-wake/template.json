@@ -1,0 +1,928 @@
+{
+  "schemaVersion": 2,
+  "id": "whale-wake",
+  "name": "鲸醒·上电",
+  "author": "大肥鱼",
+  "license": "CC-BY-4.0",
+  "version": "6.1.0",
+  "minSuiteVersion": "2.2.0",
+  "description": "黑场里睁一次眼，熄灭。再亮起来时画面还沉在水下——一团模糊的蓝影，然后一层一层对焦上来，雾散、光柱落下、气泡上浮，最后才看清她。",
+  "tags": [
+    "dark",
+    "blue",
+    "water",
+    "portrait",
+    "epic"
+  ],
+  "preview": {
+    "gif": "preview.gif",
+    "image": "preview.png"
+  },
+  "duration": 18000,
+  "theme": {
+    "mode": "dark",
+    "bg": "#000000",
+    "bg2": "#03060c",
+    "ink": "#e6f0ff",
+    "inkSoft": "#a9c4e8",
+    "muted": "#4a6080",
+    "hair": "rgba(120,180,255,0.22)",
+    "hairSoft": "rgba(120,180,255,0.10)",
+    "accent": "#4d6bfe",
+    "glitchA": "#ff3b30",
+    "glitchB": "#2971b8"
+  },
+  "layers": [
+    {
+      "id": "bg",
+      "type": "panel",
+      "pos": [
+        640,
+        360
+      ],
+      "panelW": 1280,
+      "panelH": 720,
+      "fill": "#000000",
+      "radius": 0,
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 1
+        },
+        {
+          "t": 17100,
+          "opacity": 1
+        },
+        {
+          "t": 18000,
+          "opacity": 0
+        }
+      ]
+    },
+    {
+      "id": "rv0",
+      "type": "image",
+      "src": "rv0.jpg",
+      "pos": [
+        640,
+        360
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 0,
+          "scale": 1.17,
+          "offsetY": 48.0,
+          "ease": "linear"
+        },
+        {
+          "t": 5600,
+          "opacity": 0,
+          "scale": 1.16,
+          "offsetY": 46.0,
+          "ease": "linear"
+        },
+        {
+          "t": 7200,
+          "opacity": 1,
+          "scale": 1.155,
+          "offsetY": 45.0,
+          "ease": "linear"
+        },
+        {
+          "t": 9100,
+          "opacity": 1.0,
+          "scale": 1.15,
+          "offsetY": 44.0,
+          "ease": "linear"
+        },
+        {
+          "t": 11300,
+          "opacity": 1.0,
+          "scale": 1.145,
+          "offsetY": 44.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 13600,
+          "opacity": 1.0,
+          "scale": 1.0,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 17000,
+          "opacity": 1.0,
+          "scale": 1.055,
+          "offsetY": 0.0,
+          "ease": "linear"
+        },
+        {
+          "t": 17100,
+          "opacity": 1,
+          "scale": 1.0555,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "scale": 1.06,
+          "offsetY": 0
+        }
+      ]
+    },
+    {
+      "id": "rv1",
+      "type": "image",
+      "src": "rv1.jpg",
+      "pos": [
+        640,
+        360
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 0,
+          "scale": 1.17,
+          "offsetY": 48.0,
+          "ease": "linear"
+        },
+        {
+          "t": 5600,
+          "opacity": 0.0,
+          "scale": 1.16,
+          "offsetY": 46.0,
+          "ease": "linear"
+        },
+        {
+          "t": 7200,
+          "opacity": 0,
+          "scale": 1.155,
+          "offsetY": 45.0,
+          "ease": "linear"
+        },
+        {
+          "t": 9100,
+          "opacity": 1,
+          "scale": 1.15,
+          "offsetY": 44.0,
+          "ease": "linear"
+        },
+        {
+          "t": 11300,
+          "opacity": 1.0,
+          "scale": 1.145,
+          "offsetY": 44.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 13600,
+          "opacity": 1.0,
+          "scale": 1.0,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 17000,
+          "opacity": 1.0,
+          "scale": 1.055,
+          "offsetY": 0.0,
+          "ease": "linear"
+        },
+        {
+          "t": 17100,
+          "opacity": 1,
+          "scale": 1.0555,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "scale": 1.06,
+          "offsetY": 0
+        }
+      ]
+    },
+    {
+      "id": "rv2",
+      "type": "image",
+      "src": "rv2.jpg",
+      "pos": [
+        640,
+        360
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 0,
+          "scale": 1.17,
+          "offsetY": 48.0,
+          "ease": "linear"
+        },
+        {
+          "t": 5600,
+          "opacity": 0.0,
+          "scale": 1.16,
+          "offsetY": 46.0,
+          "ease": "linear"
+        },
+        {
+          "t": 7200,
+          "opacity": 0.0,
+          "scale": 1.155,
+          "offsetY": 45.0,
+          "ease": "linear"
+        },
+        {
+          "t": 9100,
+          "opacity": 0,
+          "scale": 1.15,
+          "offsetY": 44.0,
+          "ease": "linear"
+        },
+        {
+          "t": 11300,
+          "opacity": 1,
+          "scale": 1.145,
+          "offsetY": 44.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 13600,
+          "opacity": 1.0,
+          "scale": 1.0,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 17000,
+          "opacity": 1.0,
+          "scale": 1.055,
+          "offsetY": 0.0,
+          "ease": "linear"
+        },
+        {
+          "t": 17100,
+          "opacity": 1,
+          "scale": 1.0555,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "scale": 1.06,
+          "offsetY": 0
+        }
+      ]
+    },
+    {
+      "id": "still",
+      "type": "image",
+      "src": "still.jpg",
+      "pos": [
+        640,
+        360
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 0,
+          "scale": 1.17,
+          "offsetY": 48.0,
+          "ease": "linear"
+        },
+        {
+          "t": 5600,
+          "opacity": 0.0,
+          "scale": 1.16,
+          "offsetY": 46.0,
+          "ease": "linear"
+        },
+        {
+          "t": 7200,
+          "opacity": 0.0,
+          "scale": 1.155,
+          "offsetY": 45.0,
+          "ease": "linear"
+        },
+        {
+          "t": 9100,
+          "opacity": 0.0,
+          "scale": 1.15,
+          "offsetY": 44.0,
+          "ease": "linear"
+        },
+        {
+          "t": 11300,
+          "opacity": 0,
+          "scale": 1.145,
+          "offsetY": 44.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 13600,
+          "opacity": 1,
+          "scale": 1.0,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 17000,
+          "opacity": 1.0,
+          "scale": 1.055,
+          "offsetY": 0.0,
+          "ease": "linear"
+        },
+        {
+          "t": 17100,
+          "opacity": 1,
+          "scale": 1.0555,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "scale": 1.06,
+          "offsetY": 0
+        }
+      ]
+    },
+    {
+      "id": "veil",
+      "type": "image",
+      "src": "veil.webp",
+      "pos": [
+        640,
+        360
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 0,
+          "scale": 1.06
+        },
+        {
+          "t": 5300,
+          "opacity": 0,
+          "scale": 1.06
+        },
+        {
+          "t": 6000,
+          "opacity": 0.96,
+          "scale": 1.04,
+          "ease": "outCubic"
+        },
+        {
+          "t": 8200,
+          "opacity": 0.92,
+          "scale": 1.02
+        },
+        {
+          "t": 10600,
+          "opacity": 0.62,
+          "scale": 1,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 13000,
+          "opacity": 0.28,
+          "scale": 1,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 15200,
+          "opacity": 0.12,
+          "scale": 1,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 17100,
+          "opacity": 0.1,
+          "scale": 1
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "rays",
+      "type": "image",
+      "src": "godrays.webp",
+      "pos": [
+        640,
+        360
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 0,
+          "offsetY": 30,
+          "scale": 1.1
+        },
+        {
+          "t": 7600,
+          "opacity": 0,
+          "offsetY": 30,
+          "scale": 1.1
+        },
+        {
+          "t": 10400,
+          "opacity": 0.26,
+          "offsetY": 12,
+          "scale": 1.05,
+          "ease": "outCubic"
+        },
+        {
+          "t": 13600,
+          "opacity": 0.34,
+          "offsetY": 0,
+          "scale": 1,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 16600,
+          "opacity": 0.22,
+          "offsetY": 0,
+          "scale": 1.03
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "offsetY": 0,
+          "scale": 1.03
+        }
+      ]
+    },
+    {
+      "id": "bubbles",
+      "type": "image",
+      "src": "bubbles.webp",
+      "pos": [
+        640,
+        360
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 0,
+          "offsetY": 110
+        },
+        {
+          "t": 6100,
+          "opacity": 0,
+          "offsetY": 110
+        },
+        {
+          "t": 6900,
+          "opacity": 0.62,
+          "offsetY": 60,
+          "ease": "outCubic"
+        },
+        {
+          "t": 10500,
+          "opacity": 0.5,
+          "offsetY": -40,
+          "ease": "linear"
+        },
+        {
+          "t": 13400,
+          "opacity": 0.24,
+          "offsetY": -160,
+          "ease": "outCubic"
+        },
+        {
+          "t": 14800,
+          "opacity": 0,
+          "offsetY": -230
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "type": "image",
+      "src": "eyes.webp",
+      "pos": [
+        640,
+        360
+      ],
+      "size": [
+        1280,
+        720
+      ],
+      "keyframes": [
+        {
+          "t": 0,
+          "opacity": 0,
+          "scale": 1.17,
+          "offsetY": 48.0,
+          "ease": "linear"
+        },
+        {
+          "t": 900,
+          "opacity": 0,
+          "scale": 1.1684,
+          "offsetY": 47.6786,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 4200,
+          "opacity": 0.95,
+          "scale": 1.1625,
+          "offsetY": 46.5,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 5600,
+          "opacity": 0.915,
+          "scale": 1.16,
+          "offsetY": 46.0,
+          "ease": "linear"
+        },
+        {
+          "t": 6200,
+          "opacity": 0.9,
+          "scale": 1.1581,
+          "offsetY": 45.625,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 7000,
+          "opacity": 0,
+          "scale": 1.1556,
+          "offsetY": 45.125,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 7200,
+          "opacity": 0.0,
+          "scale": 1.155,
+          "offsetY": 45.0,
+          "ease": "linear"
+        },
+        {
+          "t": 9100,
+          "opacity": 0.0,
+          "scale": 1.15,
+          "offsetY": 44.0,
+          "ease": "linear"
+        },
+        {
+          "t": 9200,
+          "opacity": 0,
+          "scale": 1.1498,
+          "offsetY": 44.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 10600,
+          "opacity": 0.55,
+          "scale": 1.1466,
+          "offsetY": 44.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 11300,
+          "opacity": 0.5636,
+          "scale": 1.145,
+          "offsetY": 44.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 13600,
+          "opacity": 0.6083,
+          "scale": 1.0,
+          "offsetY": 0.0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 14200,
+          "opacity": 0.62,
+          "scale": 1.0243,
+          "offsetY": 0.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 16200,
+          "opacity": 0.8,
+          "scale": 1.0543,
+          "offsetY": 0.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 16600,
+          "opacity": 0.66,
+          "scale": 1.0549,
+          "offsetY": 0.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 17000,
+          "opacity": 0.7971,
+          "scale": 1.055,
+          "offsetY": 0.0,
+          "ease": "linear"
+        },
+        {
+          "t": 17300,
+          "opacity": 0.9,
+          "scale": 1.0565,
+          "offsetY": 0.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 17700,
+          "opacity": 0.5,
+          "scale": 1.0585,
+          "offsetY": 0.0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "scale": 1.06,
+          "offsetY": 0
+        }
+      ]
+    },
+    {
+      "id": "plate",
+      "type": "panel",
+      "pos": [
+        640,
+        596
+      ],
+      "panelW": 600,
+      "panelH": 132,
+      "radius": 4,
+      "fill": "rgba(3,6,12,0.42)",
+      "blur": 2,
+      "keyframes": [
+        {
+          "t": 13600,
+          "opacity": 0,
+          "ease": "outCubic"
+        },
+        {
+          "t": 14400,
+          "opacity": 1
+        },
+        {
+          "t": 17100,
+          "opacity": 1
+        },
+        {
+          "t": 18000,
+          "opacity": 0
+        }
+      ]
+    },
+    {
+      "id": "rule",
+      "type": "line",
+      "pos": [
+        640,
+        528
+      ],
+      "width": 400,
+      "keyframes": [
+        {
+          "t": 13900,
+          "opacity": 0,
+          "reveal": 0
+        },
+        {
+          "t": 14050,
+          "opacity": 0.85,
+          "reveal": 0,
+          "ease": "inOutCubic"
+        },
+        {
+          "t": 15000,
+          "opacity": 0.85,
+          "reveal": 1
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "reveal": 1
+        }
+      ]
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "text": "我已启动",
+      "pos": [
+        640,
+        582
+      ],
+      "font": {
+        "size": 52,
+        "weight": 700,
+        "tracking": 0.2
+      },
+      "color": "#eef4ff",
+      "keyframes": [
+        {
+          "t": 14100,
+          "opacity": 0,
+          "typed": 0,
+          "offsetY": 12,
+          "ease": "outCubic"
+        },
+        {
+          "t": 14400,
+          "opacity": 1,
+          "typed": 0,
+          "offsetY": 12,
+          "ease": "outCubic"
+        },
+        {
+          "t": 14550,
+          "opacity": 1,
+          "typed": 0.1,
+          "offsetY": 4
+        },
+        {
+          "t": 15300,
+          "opacity": 1,
+          "typed": 1,
+          "offsetY": 0
+        },
+        {
+          "t": 17600,
+          "opacity": 1,
+          "typed": 1,
+          "offsetY": 0
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "typed": 1,
+          "offsetY": 0
+        }
+      ]
+    },
+    {
+      "id": "sub",
+      "type": "text",
+      "text": "SYSTEM ONLINE · SURFACING FROM DEPTH",
+      "pos": [
+        640,
+        624
+      ],
+      "font": {
+        "size": 12,
+        "weight": 400,
+        "tracking": 0.4
+      },
+      "color": "#5b8ace",
+      "keyframes": [
+        {
+          "t": 14800,
+          "opacity": 0,
+          "offsetY": 10,
+          "ease": "outCubic"
+        },
+        {
+          "t": 15500,
+          "opacity": 1,
+          "offsetY": 0
+        },
+        {
+          "t": 17600,
+          "opacity": 1,
+          "offsetY": 0
+        },
+        {
+          "t": 18000,
+          "opacity": 0,
+          "offsetY": 0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "vignette",
+      "opacity": 0.95
+    },
+    {
+      "type": "scanline",
+      "opacity": 0.14
+    },
+    {
+      "type": "crt",
+      "opacity": 0.09
+    },
+    {
+      "type": "letterbox",
+      "opacity": 1
+    },
+    {
+      "type": "bloom",
+      "opacity": 0.5,
+      "from": 1200,
+      "to": 7400,
+      "x": -17.75,
+      "y": -75.66,
+      "scale": 0.5
+    },
+    {
+      "type": "glitch",
+      "opacity": 0.3,
+      "from": 7000,
+      "to": 7600
+    },
+    {
+      "type": "sonar",
+      "opacity": 0.3,
+      "from": 7200,
+      "to": 10800,
+      "x": -17.56,
+      "y": -76.81,
+      "scale": 0.5,
+      "speed": 0.55
+    },
+    {
+      "type": "readout",
+      "opacity": 0.24,
+      "from": 8600,
+      "to": 13200
+    },
+    {
+      "type": "hud",
+      "opacity": 0.16,
+      "from": 9600,
+      "to": 13600
+    },
+    {
+      "type": "bloom",
+      "opacity": 0.45,
+      "from": 11200,
+      "to": 14200,
+      "x": -15.8,
+      "y": -98.18,
+      "scale": 0.55
+    },
+    {
+      "type": "bloom",
+      "opacity": 0.55,
+      "from": 16000,
+      "to": 16800,
+      "x": -16.11,
+      "y": -110.82,
+      "scale": 0.58
+    },
+    {
+      "type": "glitch",
+      "opacity": 0.34,
+      "from": 16100,
+      "to": 16500
+    },
+    {
+      "type": "bloom",
+      "opacity": 0.5,
+      "from": 17100,
+      "to": 17800,
+      "x": -16.14,
+      "y": -111.09,
+      "scale": 0.7
+    }
+  ]
+}

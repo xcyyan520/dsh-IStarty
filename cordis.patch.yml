@@ -1,0 +1,4 @@
+# dsh-IStarty：只在插件树上插一条自己的记录，不动别人的。
+- insert:
+    - id: dsh-IStarty
+      name: dsh-IStarty

@@ -1,0 +1,43 @@
+{
+  "name": "dsh-IStarty",
+  "version": "1.0.0",
+  "description": "鲸醒·上电 — 精简版启动动画插件：只保留开机动画（首屏注入 + 分幕/时间线模板 + 设置页切换），不含聊天壁纸、模板商店、更新器与音乐模块。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "startup",
+    "splash",
+    "boot-animation"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "templates",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ],
+      "platform": "web"
+    }
+  },
+  "author": "大肥鱼",
+  "homepage": "local"
+}
