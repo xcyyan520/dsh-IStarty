@@ -4,9 +4,9 @@
   "name": "鲸醒·上电",
   "author": "大肥鱼",
   "license": "CC-BY-4.0",
-  "version": "6.1.0",
+  "version": "6.3.0",
   "minSuiteVersion": "2.2.0",
-  "description": "黑场里睁一次眼，熄灭。再亮起来时画面还沉在水下——一团模糊的蓝影，然后一层一层对焦上来，雾散、光柱落下、气泡上浮，最后才看清她。",
+  "description": "鲸醒·上电：四档解像对焦出水，收尾为掉电式衰减——主体指数级暗到黑，星芒最后一盏灯交给交棒淡出。",
   "tags": [
     "dark",
     "blue",
@@ -18,7 +18,7 @@
     "gif": "preview.gif",
     "image": "preview.png"
   },
-  "duration": 18000,
+  "duration": 18200,
   "theme": {
     "mode": "dark",
     "bg": "#000000",
@@ -50,12 +50,8 @@
           "opacity": 1
         },
         {
-          "t": 17100,
+          "t": 18200,
           "opacity": 1
-        },
-        {
-          "t": 18000,
-          "opacity": 0
         }
       ]
     },
@@ -118,21 +114,50 @@
           "t": 17000,
           "opacity": 1.0,
           "scale": 1.055,
-          "offsetY": 0.0,
+          "offsetY": 0,
           "ease": "linear"
         },
         {
-          "t": 17100,
-          "opacity": 1,
-          "scale": 1.0555,
-          "offsetY": 0.0,
+          "t": 17500,
+          "opacity": 1.0,
+          "scale": 1.0572,
+          "offsetY": 0,
           "ease": "outCubic"
         },
         {
-          "t": 18000,
-          "opacity": 0,
+          "t": 17650,
+          "opacity": 0.9,
+          "scale": 1.0578,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 17800,
+          "opacity": 0.68,
+          "scale": 1.0585,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 17950,
+          "opacity": 0.4,
+          "scale": 1.0592,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18080,
+          "opacity": 0.13,
+          "scale": 1.0598,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18150,
+          "opacity": 0.0,
           "scale": 1.06,
-          "offsetY": 0
+          "offsetY": 0,
+          "ease": "linear"
         }
       ]
     },
@@ -195,21 +220,50 @@
           "t": 17000,
           "opacity": 1.0,
           "scale": 1.055,
-          "offsetY": 0.0,
+          "offsetY": 0,
           "ease": "linear"
         },
         {
-          "t": 17100,
-          "opacity": 1,
-          "scale": 1.0555,
-          "offsetY": 0.0,
+          "t": 17500,
+          "opacity": 1.0,
+          "scale": 1.0572,
+          "offsetY": 0,
           "ease": "outCubic"
         },
         {
-          "t": 18000,
-          "opacity": 0,
+          "t": 17650,
+          "opacity": 0.9,
+          "scale": 1.0578,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 17800,
+          "opacity": 0.68,
+          "scale": 1.0585,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 17950,
+          "opacity": 0.4,
+          "scale": 1.0592,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18080,
+          "opacity": 0.13,
+          "scale": 1.0598,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18150,
+          "opacity": 0.0,
           "scale": 1.06,
-          "offsetY": 0
+          "offsetY": 0,
+          "ease": "linear"
         }
       ]
     },
@@ -272,21 +326,50 @@
           "t": 17000,
           "opacity": 1.0,
           "scale": 1.055,
-          "offsetY": 0.0,
+          "offsetY": 0,
           "ease": "linear"
         },
         {
-          "t": 17100,
-          "opacity": 1,
-          "scale": 1.0555,
-          "offsetY": 0.0,
+          "t": 17500,
+          "opacity": 1.0,
+          "scale": 1.0572,
+          "offsetY": 0,
           "ease": "outCubic"
         },
         {
-          "t": 18000,
-          "opacity": 0,
+          "t": 17650,
+          "opacity": 0.9,
+          "scale": 1.0578,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 17800,
+          "opacity": 0.68,
+          "scale": 1.0585,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 17950,
+          "opacity": 0.4,
+          "scale": 1.0592,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18080,
+          "opacity": 0.13,
+          "scale": 1.0598,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18150,
+          "opacity": 0.0,
           "scale": 1.06,
-          "offsetY": 0
+          "offsetY": 0,
+          "ease": "linear"
         }
       ]
     },
@@ -349,21 +432,50 @@
           "t": 17000,
           "opacity": 1.0,
           "scale": 1.055,
-          "offsetY": 0.0,
+          "offsetY": 0,
           "ease": "linear"
         },
         {
-          "t": 17100,
-          "opacity": 1,
-          "scale": 1.0555,
-          "offsetY": 0.0,
+          "t": 17500,
+          "opacity": 1.0,
+          "scale": 1.0572,
+          "offsetY": 0,
           "ease": "outCubic"
         },
         {
-          "t": 18000,
-          "opacity": 0,
+          "t": 17650,
+          "opacity": 0.9,
+          "scale": 1.0578,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 17800,
+          "opacity": 0.68,
+          "scale": 1.0585,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 17950,
+          "opacity": 0.4,
+          "scale": 1.0592,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18080,
+          "opacity": 0.13,
+          "scale": 1.0598,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18150,
+          "opacity": 0.0,
           "scale": 1.06,
-          "offsetY": 0
+          "offsetY": 0,
+          "ease": "linear"
         }
       ]
     },
@@ -422,11 +534,18 @@
         {
           "t": 17100,
           "opacity": 0.1,
-          "scale": 1
+          "scale": 1,
+          "ease": "linear"
         },
         {
-          "t": 18000,
-          "opacity": 0,
+          "t": 17900,
+          "opacity": 0.06,
+          "scale": 1,
+          "ease": "linear"
+        },
+        {
+          "t": 18200,
+          "opacity": 0.02,
           "scale": 1
         }
       ]
@@ -477,8 +596,22 @@
           "scale": 1.03
         },
         {
-          "t": 18000,
-          "opacity": 0,
+          "t": 17200,
+          "opacity": 0.22,
+          "offsetY": 0,
+          "scale": 1.03,
+          "ease": "linear"
+        },
+        {
+          "t": 17800,
+          "opacity": 0.16,
+          "offsetY": 0,
+          "scale": 1.03,
+          "ease": "linear"
+        },
+        {
+          "t": 18200,
+          "opacity": 0.05,
           "offsetY": 0,
           "scale": 1.03
         }
@@ -654,26 +787,40 @@
           "t": 17000,
           "opacity": 0.7971,
           "scale": 1.055,
-          "offsetY": 0.0,
+          "offsetY": 0,
           "ease": "linear"
         },
         {
           "t": 17300,
           "opacity": 0.9,
           "scale": 1.0565,
-          "offsetY": 0.0,
+          "offsetY": 0,
           "ease": "inOutCubic"
         },
         {
           "t": 17700,
-          "opacity": 0.5,
+          "opacity": 0.95,
           "scale": 1.0585,
-          "offsetY": 0.0,
-          "ease": "inOutCubic"
+          "offsetY": 0,
+          "ease": "linear"
         },
         {
           "t": 18000,
-          "opacity": 0,
+          "opacity": 0.8,
+          "scale": 1.0595,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18150,
+          "opacity": 0.46,
+          "scale": 1.06,
+          "offsetY": 0,
+          "ease": "linear"
+        },
+        {
+          "t": 18200,
+          "opacity": 0.3,
           "scale": 1.06,
           "offsetY": 0
         }
@@ -702,11 +849,12 @@
           "opacity": 1
         },
         {
-          "t": 17100,
-          "opacity": 1
+          "t": 17200,
+          "opacity": 1,
+          "ease": "outCubic"
         },
         {
-          "t": 18000,
+          "t": 17550,
           "opacity": 0
         }
       ]
@@ -734,10 +882,17 @@
         {
           "t": 15000,
           "opacity": 0.85,
-          "reveal": 1
+          "reveal": 1,
+          "ease": "outCubic"
         },
         {
-          "t": 18000,
+          "t": 17250,
+          "opacity": 0.85,
+          "reveal": 1,
+          "ease": "outCubic"
+        },
+        {
+          "t": 17480,
           "opacity": 0,
           "reveal": 1
         }
@@ -785,13 +940,14 @@
           "offsetY": 0
         },
         {
-          "t": 17600,
+          "t": 17400,
           "opacity": 1,
           "typed": 1,
-          "offsetY": 0
+          "offsetY": 0,
+          "ease": "outCubic"
         },
         {
-          "t": 18000,
+          "t": 17640,
           "opacity": 0,
           "typed": 1,
           "offsetY": 0
@@ -825,12 +981,13 @@
           "offsetY": 0
         },
         {
-          "t": 17600,
+          "t": 17350,
           "opacity": 1,
-          "offsetY": 0
+          "offsetY": 0,
+          "ease": "outCubic"
         },
         {
-          "t": 18000,
+          "t": 17530,
           "opacity": 0,
           "offsetY": 0
         }
@@ -919,10 +1076,16 @@
       "type": "bloom",
       "opacity": 0.5,
       "from": 17100,
-      "to": 17800,
+      "to": 18150,
       "x": -16.14,
       "y": -111.09,
       "scale": 0.7
+    },
+    {
+      "type": "crt",
+      "opacity": 0.16,
+      "from": 17500,
+      "to": 18150
     }
   ]
 }
